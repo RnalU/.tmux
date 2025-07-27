@@ -5,16 +5,10 @@
     <img alt="Oh my tmux! logo and wordmark" src=".logo/logomark+wordmark.svg">
   </picture>
 </p>
-
 ˗ˏˋ ★ ˎˊ˗ My self-contained, pretty and versatile tmux configuration, made with ❤️ ˗ˏˋ ★ ˎˊ˗
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://cloud.githubusercontent.com/assets/553208/19740585/85596a5a-9bbf-11e6-8aa1-7c8d9829c008.gif">
-    <source media="(prefers-color-scheme: dark)" srcset="https://cloud.githubusercontent.com/assets/553208/19740585/85596a5a-9bbf-11e6-8aa1-7c8d9829c008.gif">
-    <img alt="Oh my tmux! in action" src="https://cloud.githubusercontent.com/assets/553208/19740585/85596a5a-9bbf-11e6-8aa1-7c8d9829c008.gif">
-  </picture>
-</p>
+![1](./example/1.png)
+
 
 Installation
 ------------
@@ -171,31 +165,6 @@ Features
 [Urlview]: https://packages.debian.org/stable/misc/urlview
 [Urlscan]: https://github.com/firecat53/urlscan
 
-The "Maximize any pane to a new window with `<prefix> +`" feature is different
-from the builtin `resize-pane -Z` command, as it allows you to further split a maximized
-pane. It's also more flexible by allowing you to maximize a pane to a new
-window, then change window, then go back and the pane is still in maximized
-state in its own window. You can then minimize a pane by using `<prefix> +`
-either from the source window or the maximized window.
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://cloud.githubusercontent.com/assets/553208/9890858/ee3c0ca6-5c02-11e5-890e-05d825a46c92.gif">
-    <source media="(prefers-color-scheme: dark)" srcset="https://cloud.githubusercontent.com/assets/553208/9890858/ee3c0ca6-5c02-11e5-890e-05d825a46c92.gif">
-    <img alt="Maximizing a pane" src="https://cloud.githubusercontent.com/assets/553208/9890858/ee3c0ca6-5c02-11e5-890e-05d825a46c92.gif">
-  </picture>
-</p>
-
-Mouse mode allows you to set the active window, set the active pane, resize
-panes and automatically switches to copy-mode to select text.
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://cloud.githubusercontent.com/assets/553208/9890797/8dffe542-5c02-11e5-9c06-a25b452e6fcc.gif">
-    <source media="(prefers-color-scheme: dark)" srcset="https://cloud.githubusercontent.com/assets/553208/9890797/8dffe542-5c02-11e5-9c06-a25b452e6fcc.gif">
-    <img alt="Mouse mode" src="https://cloud.githubusercontent.com/assets/553208/9890797/8dffe542-5c02-11e5-9c06-a25b452e6fcc.gif">
-  </picture>
-</p>
 
 Bindings
 --------
